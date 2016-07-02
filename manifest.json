@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Chrome2Org",
+    "description": "Sends chunks of text over to Emacs",
+    "version": "0.1",
+
+    "browser_action": {
+        "default_icon": "org-mode_icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "activeTab"
+    ]
+}
