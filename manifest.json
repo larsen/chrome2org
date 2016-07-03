@@ -4,12 +4,21 @@
     "description": "Sends chunks of text over to Emacs",
     "version": "0.1",
 
+    "background": {
+        "scripts": [ "eventpage.js" ],
+        "persistent": false
+    },
+
     "browser_action": {
-        "default_icon": "org-mode_icon.png",
-        "default_popup": "popup.html"
+        "descrition": "test"
+    },
+    
+    "icons": {
+        "128": "org-mode_icon.png"
     },
 
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "http://localhost:8002/save"
     ]
 }
